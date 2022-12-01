@@ -28,7 +28,7 @@ tasks.getByName<org.jetbrains.intellij.tasks.PatchPluginXmlTask>("patchPluginXml
     sinceBuild.set("211")
     untilBuild.set("223.*")
     changeNotes.set("""
-        <p>Fix preview on Windows</p>
+        <p>Update to support IntelliJ 2022.3 / 223.*</p>
     """.trimIndent())
 }
 
