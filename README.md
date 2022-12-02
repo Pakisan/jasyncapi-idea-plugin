@@ -12,17 +12,23 @@ Idea plugin for the [java-asyncapi](https://github.com/Pakisan/java-asyncapi) - 
 - File references resolving with auto-completion in AsyncAPI schema (json).
 
 ## Usage
-1. clone repository
+1. Clone repository
 ```sh
 git clone https://github.com/Pakisan/jasyncapi-idea-plugin.git
 ```
-2. move to jasyncapi-idea-plugin
+2. Move to jasyncapi-idea-plugin
 ```sh
 cd jasyncapi-idea-plugin
 ```
-3. build plugin
+3. IMPORTANT: Make sure you are using Java 17 or later!
+
+* Plugins for IntelliJ IDEA 2022.3 and later require building using Java 17 or later.
+* Consider using <a href="sdkman.io">SDKMAN</a> or a package manager to install a Java SDK that meets that minimum requirement. 
+
+
+4. Build plugin
 ```sh
-➜  jasyncapi-idea-plugin git:(feature/idea-plugin) ✗ ./gradlew buildPlugin
+./gradlew buildPlugin
 ...
 BUILD SUCCESSFUL in 24s
 11 actionable tasks: 11 executed
