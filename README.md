@@ -1,3 +1,5 @@
+# Plugin was transfered to [AsyncAPI Initiative](https://github.com/asyncapi/jasyncapi-idea-plugin)
+
 # AsyncAPI - IDEA plugin
 
 > ⚠️ This plugin doesn't support AsyncAPI 1.x
